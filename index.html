@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<h2>HTML FORMS</h2>
+	<form action="/action_page.php">
+		<label for="fname">first name</label><br>
+		<input type="text" id="fname" name="fname" placeholder="enter name" required><br><br>
+		<label for="lname">last name</label><br>
+		<input type="text" id="lname" name="lname"><br><br>
+		<label for="dob">Date of birth</label><br>
+		<input type="date" id="dob" name="dob"><br><br>
+		<label for="join">month of joining</label><br>
+		<input type="month" id="join" name="join"><br><br>
+		<label for="fname">gender</label><br>
+		<input type="radio" id="gender" name="gender">
+		<label for="gender">female</label>
+		<input type="radio" id="gender" name="gender">
+		<label for="gender">male</label><br><br>
+		<label for="file">file</label><br>
+		<input type="file" id="file" name="file"><br><br>
+		<label for="pwd">password</label><br>
+		<input type="password" id="pwd" name="pwd"><br><br>
+		<label for="pin">pin</label><br>
+		<input type="text" id="pin" name="pin" maxlength="6" size="6"><br><br>
+		<label for="course">choose a course</label><br>
+		<select id="course">
+			<option value="btech">B Tech</option>
+			<option value="mtech">M Tech<\option>
+        </select><br><br>  
+        <input type="checkbox" id="check" name="check">  
+        <label for="check">Agree all conditions</label><br><br>
+        <input type="submit" value="login">
+        <button type="button">cancel</button>
+	</form>
+
+</body>
+</html>
